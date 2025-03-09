@@ -41,7 +41,6 @@ struct PostView: View {
                 }
             }
             .background(Color.black.opacity(0.05)) // Optional: Add background for visibility
-            .cornerRadius(10)
             .padding(.bottom, 10)
         }
     }

@@ -16,9 +16,8 @@ class FeedViewModel: ObservableObject {
         loadPosts()
     }
     
-    //Dummy Data
+    // Mock data
     private func loadPosts() {
-        
         posts = [
         
             PostModel(type: .image("image1")),

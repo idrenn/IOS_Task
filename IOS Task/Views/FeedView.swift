@@ -18,6 +18,7 @@ struct FeedView: View {
                 .listRowSeparator(.hidden) // Hide separators for cleaner look
                 .listRowInsets(EdgeInsets()) // Remove default insets
         }
+        .listStyle(.plain) // Removes default styling
         .navigationBarBackButtonHidden(true) // Hides the back button
         .navigationTitle("Feeds") // Adds a title to the top bar
         .navigationBarTitleDisplayMode(.large) // Display a large title within an expanded navigation bar
